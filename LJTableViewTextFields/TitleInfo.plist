@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Basic </key>
+	<array>
+		<dict>
+			<key>placeholder</key>
+			<string></string>
+			<key>title</key>
+			<string>Name</string>
+		</dict>
+		<dict>
+			<key>placeholder</key>
+			<string>Choose State/Region</string>
+			<key>title</key>
+			<string>State/Region</string>
+		</dict>
+		<dict>
+			<key>placeholder</key>
+			<string></string>
+			<key>title</key>
+			<string>Street Name</string>
+		</dict>
+		<dict>
+			<key>placeholder</key>
+			<string></string>
+			<key>title</key>
+			<string>Street Number</string>
+		</dict>
+		<dict>
+			<key>placeholder</key>
+			<string>###-###-####</string>
+			<key>title</key>
+			<string>Phone Number</string>
+		</dict>
+		<dict>
+			<key>placeholder</key>
+			<string>#####</string>
+			<key>title</key>
+			<string>Zipcode</string>
+		</dict>
+		<dict>
+			<key>placeholder</key>
+			<string></string>
+			<key>title</key>
+			<string>Payoff</string>
+		</dict>
+	</array>
+	<key>Inspection</key>
+	<array>
+		<dict>
+			<key>placeholder</key>
+			<string>mm/dd/yyyy</string>
+			<key>title</key>
+			<string>First Time</string>
+		</dict>
+		<dict>
+			<key>placeholder</key>
+			<string>mm/dd/yyyy</string>
+			<key>title</key>
+			<string>Second Time</string>
+		</dict>
+	</array>
+	<key>Warranty</key>
+	<array>
+		<dict>
+			<key>placeholder</key>
+			<string>mm/dd/yyyy</string>
+			<key>title</key>
+			<string>Good Until</string>
+		</dict>
+	</array>
+</dict>
+</plist>

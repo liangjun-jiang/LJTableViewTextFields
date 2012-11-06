@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D64BBE8F1648B4D70076B2B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D64BBE8E1648B4D70076B2B6 /* UIKit.framework */; };
+		D64BBE911648B4D70076B2B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D64BBE901648B4D70076B2B6 /* Foundation.framework */; };
+		D64BBE931648B4D70076B2B6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D64BBE921648B4D70076B2B6 /* CoreGraphics.framework */; };
+		D64BBE991648B4D70076B2B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D64BBE971648B4D70076B2B6 /* InfoPlist.strings */; };
+		D64BBE9B1648B4D70076B2B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D64BBE9A1648B4D70076B2B6 /* main.m */; };
+		D64BBE9F1648B4D70076B2B6 /* LJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D64BBE9E1648B4D70076B2B6 /* LJAppDelegate.m */; };
+		D64BBEA11648B4D70076B2B6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D64BBEA01648B4D70076B2B6 /* Default.png */; };
+		D64BBEA31648B4D70076B2B6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D64BBEA21648B4D70076B2B6 /* Default@2x.png */; };
+		D64BBEA51648B4D70076B2B6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D64BBEA41648B4D70076B2B6 /* Default-568h@2x.png */; };
+		D64BBEA81648B4D70076B2B6 /* LJMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D64BBEA71648B4D70076B2B6 /* LJMasterViewController.m */; };
+		D64BBEAE1648B4D70076B2B6 /* LJMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D64BBEAC1648B4D70076B2B6 /* LJMasterViewController.xib */; };
+		D64BBEC71648B5BC0076B2B6 /* TextFieldTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D64BBEC61648B5BC0076B2B6 /* TextFieldTableCell.m */; };
+		D64BBECE1648B7250076B2B6 /* MultipleSectionsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D64BBEC91648B7250076B2B6 /* MultipleSectionsTableViewController.m */; };
+		D64BBECF1648B7250076B2B6 /* SingleSectionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D64BBECB1648B7250076B2B6 /* SingleSectionTableViewController.m */; };
+		D64BBED01648B7250076B2B6 /* MultipleSectionsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D64BBECC1648B7250076B2B6 /* MultipleSectionsTableViewController.xib */; };
+		D64BBED11648B7250076B2B6 /* SingleSectionTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D64BBECD1648B7250076B2B6 /* SingleSectionTableViewController.xib */; };
+		D64BBED31648B9A70076B2B6 /* TitleInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = D64BBED21648B9A70076B2B6 /* TitleInfo.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D64BBE8A1648B4D70076B2B6 /* LJTableViewTextFields.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJTableViewTextFields.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D64BBE8E1648B4D70076B2B6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D64BBE901648B4D70076B2B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D64BBE921648B4D70076B2B6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D64BBE961648B4D70076B2B6 /* LJTableViewTextFields-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LJTableViewTextFields-Info.plist"; sourceTree = "<group>"; };
+		D64BBE981648B4D70076B2B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D64BBE9A1648B4D70076B2B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D64BBE9C1648B4D70076B2B6 /* LJTableViewTextFields-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LJTableViewTextFields-Prefix.pch"; sourceTree = "<group>"; };
+		D64BBE9D1648B4D70076B2B6 /* LJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJAppDelegate.h; sourceTree = "<group>"; };
+		D64BBE9E1648B4D70076B2B6 /* LJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJAppDelegate.m; sourceTree = "<group>"; };
+		D64BBEA01648B4D70076B2B6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D64BBEA21648B4D70076B2B6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D64BBEA41648B4D70076B2B6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D64BBEA61648B4D70076B2B6 /* LJMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJMasterViewController.h; sourceTree = "<group>"; };
+		D64BBEA71648B4D70076B2B6 /* LJMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJMasterViewController.m; sourceTree = "<group>"; };
+		D64BBEAD1648B4D70076B2B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LJMasterViewController.xib; sourceTree = "<group>"; };
+		D64BBEC51648B5BC0076B2B6 /* TextFieldTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldTableCell.h; sourceTree = "<group>"; };
+		D64BBEC61648B5BC0076B2B6 /* TextFieldTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldTableCell.m; sourceTree = "<group>"; };
+		D64BBEC81648B7250076B2B6 /* MultipleSectionsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipleSectionsTableViewController.h; sourceTree = "<group>"; };
+		D64BBEC91648B7250076B2B6 /* MultipleSectionsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipleSectionsTableViewController.m; sourceTree = "<group>"; };
+		D64BBECA1648B7250076B2B6 /* SingleSectionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleSectionTableViewController.h; sourceTree = "<group>"; };
+		D64BBECB1648B7250076B2B6 /* SingleSectionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleSectionTableViewController.m; sourceTree = "<group>"; };
+		D64BBECC1648B7250076B2B6 /* MultipleSectionsTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MultipleSectionsTableViewController.xib; sourceTree = "<group>"; };
+		D64BBECD1648B7250076B2B6 /* SingleSectionTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SingleSectionTableViewController.xib; sourceTree = "<group>"; };
+		D64BBED21648B9A70076B2B6 /* TitleInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TitleInfo.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D64BBE871648B4D70076B2B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D64BBE8F1648B4D70076B2B6 /* UIKit.framework in Frameworks */,
+				D64BBE911648B4D70076B2B6 /* Foundation.framework in Frameworks */,
+				D64BBE931648B4D70076B2B6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D64BBE7F1648B4D70076B2B6 = {
+			isa = PBXGroup;
+			children = (
+				D64BBE941648B4D70076B2B6 /* LJTableViewTextFields */,
+				D64BBE8D1648B4D70076B2B6 /* Frameworks */,
+				D64BBE8B1648B4D70076B2B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D64BBE8B1648B4D70076B2B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D64BBE8A1648B4D70076B2B6 /* LJTableViewTextFields.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D64BBE8D1648B4D70076B2B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D64BBE8E1648B4D70076B2B6 /* UIKit.framework */,
+				D64BBE901648B4D70076B2B6 /* Foundation.framework */,
+				D64BBE921648B4D70076B2B6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D64BBE941648B4D70076B2B6 /* LJTableViewTextFields */ = {
+			isa = PBXGroup;
+			children = (
+				D64BBEC81648B7250076B2B6 /* MultipleSectionsTableViewController.h */,
+				D64BBEC91648B7250076B2B6 /* MultipleSectionsTableViewController.m */,
+				D64BBECA1648B7250076B2B6 /* SingleSectionTableViewController.h */,
+				D64BBECB1648B7250076B2B6 /* SingleSectionTableViewController.m */,
+				D64BBECC1648B7250076B2B6 /* MultipleSectionsTableViewController.xib */,
+				D64BBECD1648B7250076B2B6 /* SingleSectionTableViewController.xib */,
+				D64BBEC51648B5BC0076B2B6 /* TextFieldTableCell.h */,
+				D64BBEC61648B5BC0076B2B6 /* TextFieldTableCell.m */,
+				D64BBE9D1648B4D70076B2B6 /* LJAppDelegate.h */,
+				D64BBE9E1648B4D70076B2B6 /* LJAppDelegate.m */,
+				D64BBEA61648B4D70076B2B6 /* LJMasterViewController.h */,
+				D64BBEA71648B4D70076B2B6 /* LJMasterViewController.m */,
+				D64BBEAC1648B4D70076B2B6 /* LJMasterViewController.xib */,
+				D64BBE951648B4D70076B2B6 /* Supporting Files */,
+			);
+			path = LJTableViewTextFields;
+			sourceTree = "<group>";
+		};
+		D64BBE951648B4D70076B2B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D64BBED21648B9A70076B2B6 /* TitleInfo.plist */,
+				D64BBE961648B4D70076B2B6 /* LJTableViewTextFields-Info.plist */,
+				D64BBE971648B4D70076B2B6 /* InfoPlist.strings */,
+				D64BBE9A1648B4D70076B2B6 /* main.m */,
+				D64BBE9C1648B4D70076B2B6 /* LJTableViewTextFields-Prefix.pch */,
+				D64BBEA01648B4D70076B2B6 /* Default.png */,
+				D64BBEA21648B4D70076B2B6 /* Default@2x.png */,
+				D64BBEA41648B4D70076B2B6 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D64BBE891648B4D70076B2B6 /* LJTableViewTextFields */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D64BBEB41648B4D70076B2B6 /* Build configuration list for PBXNativeTarget "LJTableViewTextFields" */;
+			buildPhases = (
+				D64BBE861648B4D70076B2B6 /* Sources */,
+				D64BBE871648B4D70076B2B6 /* Frameworks */,
+				D64BBE881648B4D70076B2B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LJTableViewTextFields;
+			productName = LJTableViewTextFields;
+			productReference = D64BBE8A1648B4D70076B2B6 /* LJTableViewTextFields.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D64BBE811648B4D70076B2B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LJ;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = LJApps;
+			};
+			buildConfigurationList = D64BBE841648B4D70076B2B6 /* Build configuration list for PBXProject "LJTableViewTextFields" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D64BBE7F1648B4D70076B2B6;
+			productRefGroup = D64BBE8B1648B4D70076B2B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D64BBE891648B4D70076B2B6 /* LJTableViewTextFields */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D64BBE881648B4D70076B2B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D64BBE991648B4D70076B2B6 /* InfoPlist.strings in Resources */,
+				D64BBEA11648B4D70076B2B6 /* Default.png in Resources */,
+				D64BBEA31648B4D70076B2B6 /* Default@2x.png in Resources */,
+				D64BBEA51648B4D70076B2B6 /* Default-568h@2x.png in Resources */,
+				D64BBEAE1648B4D70076B2B6 /* LJMasterViewController.xib in Resources */,
+				D64BBED01648B7250076B2B6 /* MultipleSectionsTableViewController.xib in Resources */,
+				D64BBED11648B7250076B2B6 /* SingleSectionTableViewController.xib in Resources */,
+				D64BBED31648B9A70076B2B6 /* TitleInfo.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D64BBE861648B4D70076B2B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D64BBE9B1648B4D70076B2B6 /* main.m in Sources */,
+				D64BBE9F1648B4D70076B2B6 /* LJAppDelegate.m in Sources */,
+				D64BBEA81648B4D70076B2B6 /* LJMasterViewController.m in Sources */,
+				D64BBEC71648B5BC0076B2B6 /* TextFieldTableCell.m in Sources */,
+				D64BBECE1648B7250076B2B6 /* MultipleSectionsTableViewController.m in Sources */,
+				D64BBECF1648B7250076B2B6 /* SingleSectionTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D64BBE971648B4D70076B2B6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D64BBE981648B4D70076B2B6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D64BBEAC1648B4D70076B2B6 /* LJMasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D64BBEAD1648B4D70076B2B6 /* en */,
+			);
+			name = LJMasterViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D64BBEB21648B4D70076B2B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D64BBEB31648B4D70076B2B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D64BBEB51648B4D70076B2B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LJTableViewTextFields/LJTableViewTextFields-Prefix.pch";
+				INFOPLIST_FILE = "LJTableViewTextFields/LJTableViewTextFields-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D64BBEB61648B4D70076B2B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LJTableViewTextFields/LJTableViewTextFields-Prefix.pch";
+				INFOPLIST_FILE = "LJTableViewTextFields/LJTableViewTextFields-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D64BBE841648B4D70076B2B6 /* Build configuration list for PBXProject "LJTableViewTextFields" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D64BBEB21648B4D70076B2B6 /* Debug */,
+				D64BBEB31648B4D70076B2B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D64BBEB41648B4D70076B2B6 /* Build configuration list for PBXNativeTarget "LJTableViewTextFields" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D64BBEB51648B4D70076B2B6 /* Debug */,
+				D64BBEB61648B4D70076B2B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D64BBE811648B4D70076B2B6 /* Project object */;
+}
