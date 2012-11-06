@@ -7,8 +7,8 @@ Two approachs have been used to handle the "Previous" and "Next" action, which a
 
 Let me know if you have better solution.
 
-<img src="http://ljsportapps.com/11051.png">
-<img src="http://ljsportapps.com/11052.png">
+<img src="http://ljsportapps.com/11051.png" width="160" height="240">
+<img src="http://ljsportapps.com/11052.png" width="160" height="240">
 
 Liangjun Jiang
 10/26/2012
